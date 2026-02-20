@@ -17,3 +17,13 @@ const int IR_PIN = 2;
 // TODO 2:
 // Create variable to store sensor state
 int irState = 0;
+
+void setup() {
+
+    // TODO 3:
+    // Initialize Serial communication (9600 baud rate)
+    Serial.begin(9600);
+
+    // TODO 4:
+    // Configure IR pin as INPUT
+    pinMode(IR_PIN, INPUT);
