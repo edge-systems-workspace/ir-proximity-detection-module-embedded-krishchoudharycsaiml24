@@ -10,3 +10,10 @@
  * Reads digital input from IR sensor.
  * and detects obstacle presence.
  */
+// TODO 1:
+// Define IR sensor digital pin (Use pin 2)
+const int IR_PIN = 2;
+
+// TODO 2:
+// Create variable to store sensor state
+int irState = 0;
