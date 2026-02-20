@@ -7,6 +7,6 @@
  * @date 2026-02-20
  *
  * @details
- * Reads digital input from IR sensor
+ * Reads digital input from IR sensor.
  * and detects obstacle presence.
  */
